@@ -37,11 +37,9 @@ public class RectangleInfo {
 
         // Calculate area, perimeter, and diagonal
         double area = width * height;
-        double perimeter = 2 * (width + height);
         double diagonal = Math.sqrt(width * width + height * height);
 
         System.out.printf("Area: %.2f\n", area); // %.2f rounds the floating-point number to two decimal places
-        System.out.printf("Perimeter: %.2f\n", perimeter);
         System.out.printf("Diagonal: %.2f\n", diagonal);
     }
 }
