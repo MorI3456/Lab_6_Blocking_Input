@@ -1,3 +1,4 @@
+// This code was made by Connor Casey 10/4/24
 import java.util.Scanner;
 
 public class CtoFConverter {
